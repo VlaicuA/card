@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main_div {
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(253,157,169);
+    background: linear-gradient(158deg, rgba(253,157,169,1) 65%, rgba(189,46,170,1) 100%);   
+}
+
+.card_section {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    box-shadow: 5px 5px 30px grey;
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.top_div {
+    position: relative;
+    /* border: 1px solid black; */
+    height: 30%;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    justify-content: center;
+    background-image: url(./pictures/montain.jpg);
+}
+
+.round_div {
+    /* border: 1px solid black; */
+    border-radius: 70px;
+    height: 120px;
+    width: 120px;
+    z-index: 1;
+    margin-top: 60px;
+    box-shadow: 5px 5px 30px grey;
+    background-image: url(./pictures/me.jpg);
+}
+
+.bottom_div {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 100%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.dots {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   width: 100%;
+   margin-top: 7px;
+   padding-right: 10px;
+}
+
+.dots > p {
+width: 4px;
+height: 10px;
+padding-right:10px ;
+margin-bottom: -4px;
+font-size: 20px;
+color: rgb(77, 76, 76);
+}
+
+.name_div {
+    margin-top: 37px;
+    display: flex;
+    justify-content: center;
+}
+
+.name_div > h1 {
+    color: rgb(77, 76, 76);
+}
+
+.short_p {
+    display: flex;
+    justify-content: center;
+}
+.short_p > p {
+    color: grey;
+    font-size: 14px;
+}
+
+.about_me_txt {
+    padding: 20px;
+    text-align: justify;
+}
